@@ -29,7 +29,7 @@ namespace DTAClient.DXGUI.Multiplayer.CnCNet
             Height = 200;
             PanelBackgroundDrawMode = PanelBackgroundImageDrawMode.STRETCHED;
             BackgroundTexture = AssetLoader.CreateTexture(new Color(0, 0, 0, 128), 1, 1);
-            AddColumn("Name", 230);
+            AddColumn("服务器名称", 230);
             AddColumn("Official", 70);
             AddColumn("Ping", 76);
             AddColumn("Players", 90);
